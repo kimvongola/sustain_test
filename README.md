@@ -1,10 +1,13 @@
 # List of Command Line
 ***
-## Git Creation
+## Server Command
 
 - เปิด Git ใน Server: ```ssh [Username]@[Server IP]```
 - สร้าง Repository: ```mkdir [PATH]```
 - สร้าง Bare Repository(Repo ที่่ไม่สามารถแก้ไฟล์ใน git ได้ต้อง clone ละค่อย Push): ```git init --bare [PATH]```
+- ลบ Repository folder: ```rm -rf [Reponame]```
+- ลบ Tracking: ```Remove-Item -Recurse -Force .\[Reponame]\```
+- ลบแค่ .git: ```rm -rf .git```
   ***
  ## Client Command
  - เชื่อม Repository ของ Server: ```git remote add origin ssh://[Username]@[Server IP]/[PATH to repo]```
@@ -12,7 +15,7 @@
  - สร้าง Project ใน Repository ```mkdir [Project Name]```
  - สร้าง Readme: ```echo [Content] > [Filename.type]```
  - สั้งให้ Git ดูการเปลี่ยนแปลงของไฟล์นั้นๆ: ```git add [Filename]```
- - สั้งให้ Git ดูการเปลี่ยนแปลงของไฟล์ทั้งหมด: ```git add .```
+ - สั้งให้ Git ดูการเปลี่ยนแปลงของไฟล์ทั้งหมด(Tracking): ```git add .```
  - Commit/Update File(Local Update): ```git commit -m [Update Name]```
  - Push Code(Public Update): ```git push -u origin main```
  - สร้าง & เปลี่ยน Branch: ```git checkout -b [Branch name]```
