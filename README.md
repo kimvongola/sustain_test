@@ -1,3 +1,3 @@
 # List of Command Line
-- เปิด Git ใน Server: ```username@Server IP
+- เปิด Git ใน Server: ```username@Server IP```
 - 
