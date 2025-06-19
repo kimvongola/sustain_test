@@ -5,7 +5,7 @@
 - เปิด Git ใน Server: ```ssh [Username]@[Server IP]```
 - สร้าง Repository: ```mkdir [PATH]```
 - สร้าง Bare Repository(Repo ที่่ไม่สามารถแก้ไฟล์ใน git ได้ต้อง clone ละค่อย Push): ```git init --bare [PATH]```
-- ลบ Repository folder: ```rm -rf [Reponame]```
+- ลบ Repository folder: ```rm -rf [Reponame].git```
 - ลบ Tracking: ```Remove-Item -Recurse -Force .\[Reponame]\```
 - ลบแค่ .git: ```rm -rf .git```
   ***
