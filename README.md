@@ -11,7 +11,7 @@
   ***
  ## Client Command
  - เชื่อม Repository ของ Server: ```git remote add origin ssh://[Username]@[Server IP]/[PATH to repo]```
- - Clone Repository: ```git clone ssh://git@[Server IP]:/[PATH to Repo]```
+ - Clone Repository: ```git clone ssh://[uesrname]@[Server IP]:/[PATH to Repo]```
  - สร้าง Project ใน Repository ```mkdir [Project Name]```
  - สร้าง Readme: ```echo [Content] > [Filename.type]```
  - สั้งให้ Git ดูการเปลี่ยนแปลงของไฟล์นั้นๆ: ```git add [Filename]```
@@ -35,7 +35,7 @@
 3. Create your own repo ```mkdir [PATH]```
 4. Go to your created repo ```cd [PATH]```
 5. Make it a bare repo ```git init --bare [PATH]```
-6. Clone repo(main branch) to your laptop ```git clone ssh://git@[Server IP]:/[PATH to Repo]```
+6. Clone repo(main branch) to your laptop ```git clone ssh://[username]@[Server IP]:/[PATH to Repo]```
    2. Clone repo(specific branch) to your laptop ```git clone -b [Branch main] ssh://git@[Server IP]:/[PATH to Repo]```
 8. Cretae/Edit your script
 9. Track the chabge of the scripts ```git add .```
