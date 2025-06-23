@@ -43,4 +43,4 @@
 11. [OPTIONAL] : Pull repo to check changes ```git pull origin main```
 11.2. Pull specific branch ```git checkout [Branch name]``` -> ```git pull origin [Branch name]```
 13. Push to the main repo ```git push -u origin main```
-14. Check content in file ```git show branch:[Path to file]```
+14. Check content in file ```git --git-dir=[Path to repo] show [Branch name]:[File name]```
