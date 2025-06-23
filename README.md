@@ -26,7 +26,7 @@
  - ดูประวัติ Branch: ```git log --oneline```
  - หา PATH ของ Repository: ```realpath ~/[Repository Name]```
  - ลิสต์ไฟล์ในแต่ละ Repository: ```git --git -dir = [PATH] ts -tree -r [Branch name] --nameonly```
- - ดูเนื้อหาใน File: ```git show branch:[Path to file]```
+ - ดูเนื้อหาใน File: ```git --git-dir=[Path to repo] show [Branch name]:[File name]```
 
 ***
 # Process
